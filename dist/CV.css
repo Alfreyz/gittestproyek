@@ -1,0 +1,27 @@
+.container{
+    padding: 45px;
+}
+
+.div-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-bold{
+    color: blue;
+    font-style: bold;
+}
+
+.bold{
+    font-style: bold;
+}
+
+.first-content{
+    display: flex;
+}
+
+.date{
+    margin-left: auto;
+}
