@@ -1,16 +1,16 @@
-name: 'publish'
+name: "publish"
 
 on:
   push:
     branches:
-      - release
+      - testing
 
 env:
-  APP_NAME: 'App Name'
-  WINDOW_NAME: 'Your Name'
-  DIST_DIR: '../dist'
-  DEV_PATH: '../dist'
-  CONFIG_PATH: './tauri.myconf.json'
+  APP_NAME: "App Name"
+  WINDOW_NAME: "Your Name"
+  DIST_DIR: "../dist"
+  DEV_PATH: "../dist"
+  CONFIG_PATH: "./tauri.myconf.json"
 
 jobs:
   publish-tauri:
